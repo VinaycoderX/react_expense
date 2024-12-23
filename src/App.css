@@ -1,0 +1,14 @@
+.user-inputs {
+
+display: flex;
+gap: 20px; 
+text-align: center; 
+margin-left: 350px;
+}
+
+.user-inputs input{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

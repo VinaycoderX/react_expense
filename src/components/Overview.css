@@ -1,0 +1,82 @@
+.overviewc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+
+.balance-box {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.add-transaction{
+    background: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.add-transaction-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid gray;
+    
+}
+
+.add-transaction-container input{
+    margin-top: 15px;
+}
+
+.desc {
+    padding: 20px;
+}
+
+.transaction-list {
+    margin-top: 20px;
+    background: blueviolet;
+    border-radius: 4px;
+    border: 1px solid #e6e8e9;
+    padding: 15px 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 135px;
+    & span {
+        font-weight: bold;
+        font-size: 20px;
+      }
+  }
+  
+  .transaction-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+  }
+  
+  .transaction-list li {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .transaction-list span {
+    margin-right: 10px;
+  }
+  
+  .transaction-list li span:first-child {
+    font-weight: bold;
+  }
